@@ -8,10 +8,10 @@ Make your own christmas tree for your terminal 🎄
 ## Usage
 
 You can make `ChristmasTree` objects with these arguments.
-- size : The height of tree
-- margin_left : The margin of left side
-- margin_topbottom : The margin of top and bottom sides
-- time : Time the tree changes (second)
+- size : The height of tree. Default value is 3.
+- margin_left : The margin of left side. Default value is 10.
+- margin_topbottom : The margin of top and bottom sides. Default value is 5.
+- time : Time the tree changes (second). Default value is 1.
 
 ```python
 >>> from merrychristmas import ChristmasTree
